@@ -1145,3 +1145,7 @@ small{
 .country-list li{
     margin-left: 2rem;
 }
+
+.passed-date {
+    text-decoration: line-through;
+}
