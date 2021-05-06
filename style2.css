@@ -1214,3 +1214,7 @@ small{
     flex: 3;
     margin-left: 2rem;
 }
+
+.paper-desc {
+    font-size: 14px;
+}
