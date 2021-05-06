@@ -12,6 +12,7 @@
 11. Scroll to top
 12. Navigation Bar Part 2
 13. responsiveness
+14. programs
 */
 
 *{
@@ -547,7 +548,7 @@ small{
     border-left: 2px solid black;
 }
 
-.cfp-content {
+.cfp-content, .program-content {
     margin: 2.5rem 0;
 }
 
@@ -665,7 +666,7 @@ small{
     margin-left: 1rem;
 }
 
-.mainpage-content .organizers {
+.mainpage-content .organizers, .mainpage-content  .programs {
     margin-top: 2.5rem;
 }
 
@@ -961,9 +962,9 @@ small{
         /* width: 50%!important; */
     }
 
-    .rates-category th {
+    /* .rates-category th {
         background-color: 
-    }
+    } */
 
     .rates-category tr {
         border-top: 1px solid #C4C4C4;
@@ -1035,6 +1036,7 @@ small{
     
     .submission-summary thead {
         display: none;
+        /* background-color: #F3F6FC; */
         /* width: 50%!important; */
     }
 
@@ -1148,4 +1150,67 @@ small{
 
 .passed-date {
     text-decoration: line-through;
+}
+
+/* programs */
+
+#programs {
+    margin-bottom: 2.5rem;
+}
+.programs-time table {
+    width: 100%;
+    margin: 1.5rem 0;
+    color: #000;
+}
+
+.programs-time table th {
+    text-align: center;
+    padding: 0.75rem 2rem;
+}
+
+.programs-time table td:nth-child(1) {
+    text-align: center;
+    padding: 0.75rem 2rem;
+    border-right: 1px solid #C4C4C4;
+}
+
+.programs-time table td:nth-child(2) {
+    text-align: start;
+    padding: 0.75rem 2rem;
+}
+
+.programs-time table tr {
+    border-top: 1px solid #C4C4C4;
+}
+
+.programs-time tr:nth-child(even), .conf-rates tr:nth-child(even) {
+    background-color: #F3F6FC;
+}
+
+.prog-title {
+    font-weight: 700;
+}
+
+.text-muted {
+    color: #02287A;
+}
+
+.keynote-desc {
+    display: flex;
+}
+
+.keynote-img {
+    flex: 1;
+    width: 275px; 
+    height: 275px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    /* shadows */
+    box-shadow: 0 5px 10px rgb(0 0 0 / 12%);
+    box-sizing: border-box;
+}
+
+.keynote-bio {
+    flex: 3;
+    margin-left: 2rem;
 }
